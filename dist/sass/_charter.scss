@@ -1,0 +1,33 @@
+// charter start
+
+.charter{
+    position: relative;
+    margin-bottom: 65px;
+
+    .online_services__title__h2{
+        text-align: left;
+    }
+
+    &__list{
+        margin-top: 20px;
+    }
+
+    &__download{
+        margin-top: 10px;
+        display: inline-block;
+        @include fontAll(1rem,400,$max);
+        background-color:$fon;
+        padding: 15px 20px;
+        @extend%transition;
+        border:2px solid $fon;
+        &:hover{
+            background-color:transparent;
+            color:$fon;
+        }
+        span{
+            margin-left: 5px;
+        }
+    }
+}
+
+// charter end
