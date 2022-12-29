@@ -4666,9 +4666,9 @@ body {
 .feedback {
   position: relative;
   padding: 65px 0;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  width: 100%;
+  height: auto;
+  background-color: #F2F3F6;
 }
 .feedback .online_services__title__h2 {
   text-align: left;
