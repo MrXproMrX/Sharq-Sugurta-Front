@@ -1572,22 +1572,6 @@ body{
         }
     }
 
-    &__brint{
-        display: flex;
-        align-items:center;
-        justify-content: center;
-        flex-wrap: wrap;
-        grid-gap: 20px;
-        padding-bottom: 40px;
-    }
-
-    &__brint__link{
-        @include fiximg(100px,25px,false);
-        img{
-            max-height: 25px;
-        }
-    }
-
     &__bottom{
         padding: 25px 0;
         border-top: 1px solid #EAEAEA;
@@ -1941,10 +1925,6 @@ body{
     .feedback,
     .footer__list{
         padding: 40px 0;
-    }
-
-    .footer__brint {
-        padding-bottom: 30px;
     }
 
     .footer__bottom {
